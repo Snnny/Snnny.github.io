@@ -598,8 +598,8 @@ aside:
     description:
     button:
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: 联系我
+      link: https://github.com/Snnny
   card_announcement:
     enable: true
     content: This is my Blog

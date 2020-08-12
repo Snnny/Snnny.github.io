@@ -28,7 +28,7 @@ cover: https://images.pexels.com/photos/1309095/pexels-photo-1309095.jpeg?auto=c
 ##### 如何setState立即拿到新的state
 
 ```javascript
-// way1
+// way-1
 flushSync(()=> {
     this.setState({
         num: 1
@@ -36,7 +36,7 @@ flushSync(()=> {
 })
 console.log(this.state.num)
 
-// way2
+// way-2
 div.addEventListner('click',()=> {
      this.setState({
         num: 1
